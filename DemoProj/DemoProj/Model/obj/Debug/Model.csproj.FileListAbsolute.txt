@@ -1,0 +1,10 @@
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Model\bin\Debug\Model.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Model\bin\Debug\Model.pdb
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Model\obj\Debug\Model.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Model\obj\Debug\Model.pdb
+F:\MVCProj\DemoProj\DemoProj\Model\bin\Debug\Model.dll
+F:\MVCProj\DemoProj\DemoProj\Model\bin\Debug\Model.pdb
+F:\MVCProj\DemoProj\DemoProj\Model\obj\Debug\Model.dll
+F:\MVCProj\DemoProj\DemoProj\Model\obj\Debug\Model.pdb
+F:\MVCProj\DemoProj\DemoProj\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

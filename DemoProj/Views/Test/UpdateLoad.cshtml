@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index2</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap/js")
+    @Scripts.Render("~/Home/Index")
+    @Scripts.Render("~/Content/bootstrap-fileinput/js")
+
+    @Styles.Render("~/bundles/bootstrap/css")
+    @Styles.Render("~/Content/bootstrap-fileinput/css")
+
+    <style>
+        .modal-dialog {
+            width: 900px;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="btn_import" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-import" aria-hidden="true"></span>上传文件
+        </button>
+    </div>
+
+    <form>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">文件上传</h4>
+                    </div>
+                    <div class="modal-body">
+                        <label>最多上传6个文件</label>
+                        <input type="file" name="txt_file" id="txt_file" multiple class="file-loading" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

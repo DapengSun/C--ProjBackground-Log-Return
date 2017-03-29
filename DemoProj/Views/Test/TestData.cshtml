@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "TestData";
+}
+@model DemoProj.Models.TestModel
+
+@Model.id 
+@Model.name
+<div id="ttt">@ViewBag.ID</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    function test() {
+        var t = "456";
+        $.ajax({
+            type: "get",
+            url: "/Test/ChangeData/" + t,
+            dataType:"text",
+            async: false,
+            success: function (data) {
+                //document.getElementById('ttt').innerHTML = data;
+                $('#ttt').html(data);
+            }
+        })
+    }
+</script>
+
+<button onclick="test()">点我</button>
+
+<h2>TestData</h2>
+

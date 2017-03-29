@@ -1,0 +1,14 @@
+2017-03-18 17:28:32,985 [10] INFO  MyGetLogger [(null)] - {"TimeStamp":"1489829312781","Token":"a451c770-c02f-4578-8a2b-d380f3c4ce1b","MethodName":"TestController-UpdateLoad","HttpStatusCode":"OK","Errorflag":"Info","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-18 17:33:12,972 [8] ERROR MyGetLogger [(null)] - {"TimeStamp":"1489829592666","Token":"612ad3a4-aa7c-410c-8511-a6be1088be4e","MethodName":"TestController-UpdateLoad","HttpStatusCode":"BadGateway","Errorflag":"Error","Message":"测试处理成功错误!","ResponseResult":"{\"ClassName\":\"System.DivideByZeroException\",\"Message\":\"尝试除以零。\",\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   在 Common.OSSHelper..ctor() 位置 F:\\\\MVCProj\\\\DemoProj\\\\DemoProj\\\\Common\\\\OSSHelper.cs:行号 27\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":\"1\\n.ctor\\nCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\\nCommon.OSSHelper\\nVoid .ctor()\",\"HResult\":-2147352558,\"Source\":\"Common\",\"WatsonBuckets\":null}"}
+
+2017-03-18 20:28:01,786 [45] INFO  MyGetLogger [(null)] - {"TimeStamp":1489839998120,"Token":"6f76515f-6825-4727-84cb-4ca893ec45e3","MethodName":"TestController-UpdateLoad","HttpStatusCode":200,"Errorflag":2,"Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-18 20:38:38,067 [8] INFO  MyGetLogger [(null)] - {"TimeStamp":1489840282654,"Token":"7ee5b3b1-4be9-4ef9-ac3b-cf3dde15adcb","MethodName":"TestController-UpdateLoad","HttpStatusCode":200,"Errorflag":2,"Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-18 21:48:32,038 [72] INFO  MyGetLogger [(null)] - {"Host":"192.168.1.104","TimeStamp":"1489844890690","Token":"8af623aa-2dde-434e-8461-c2c1ef3ee91a","MethodName":"TestController-UpdateLoad","HttpStatusCode":"OK","Errorflag":"Info","Message":"OSS创建成功","ResponseResult":"\"\""}
+
+2017-03-18 21:49:15,828 [54] INFO  MyGetLogger [(null)] - {"Host":"192.168.1.104","TimeStamp":"1489844935733","Token":"a29a12b7-a769-46e8-86c0-75f16bac75ee","MethodName":"TestController-UpdateLoad","HttpStatusCode":"OK","Errorflag":"Info","Message":"OSS创建成功","ResponseResult":"\"\""}
+
+2017-03-18 21:52:42,140 [56] INFO  MyGetLogger [(null)] - {"Host":"192.168.1.104","TimeStamp":1489845161899,"Token":"f289545d-a04f-4af1-87b1-ef399d03f4c5","MethodName":"TestController-UpdateLoad","HttpStatusCode":200,"Errorflag":2,"Message":"OSS创建成功","ResponseResult":"\"\""}
+

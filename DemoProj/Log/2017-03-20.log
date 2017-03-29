@@ -1,0 +1,4 @@
+2017-03-20 15:33:07,937 [6] INFO  MyGetLogger [(null)] - {"Host":"192.168.0.163","TimeStamp":1489995187597,"Token":"2aac8970-a280-43ce-8e3f-26807f46c5ae","MethodName":"ReflectedActionDescriptor-Execute","HttpStatusCode":200,"Errorflag":2,"Message":"OSS创建成功","ResponseResult":"\"\""}
+
+2017-03-20 15:36:10,199 [17] INFO  MyGetLogger [(null)] - {"Host":"192.168.0.163","TimeStamp":1489995370196,"Token":"f9b5bd0e-d459-4797-b6c8-58c4ba883283","MethodName":"ReflectedActionDescriptor-Execute","HttpStatusCode":200,"Errorflag":2,"Message":"OSS创建成功","ResponseResult":"\"\""}
+

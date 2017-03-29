@@ -1,0 +1,12 @@
+2017-03-15 14:22:33,816 [7] ERROR MyGetLogger [(null)] - {"TimeStamp":"1489558951872","Token":"6c785850-ab51-49bd-a7e4-6c4d408704a7","MethodName":"ActionMethodDispatcher-Execute","HttpStatusCode":"OK","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-15 14:25:27,460 [21] ERROR MyGetLogger [(null)] - {"TimeStamp":"1489559124711","Token":"f03e0014-629b-4d1d-9a8b-4fce2ced8ad7","MethodName":"ActionMethodDispatcher-Execute","HttpStatusCode":"OK","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-15 14:36:24,270 [11] ERROR MyGetLogger [(null)] - {"TimeStamp":"1489559784085","Token":"0aa84c22-89fb-41ef-89d8-7e23601bb5fb","MethodName":"ActionMethodDispatcher-Execute","HttpStatusCode":"OK","Errorflag":"Info","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-15 14:43:58,022 [7] INFO  MyGetLogger [(null)] - {"TimeStamp":"1489560237838","Token":"a24b3d0a-1cb8-480d-8fe9-94d08e4597c4","MethodName":"ActionMethodDispatcher-Execute","HttpStatusCode":"OK","Errorflag":"Info","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-15 14:45:32,300 [7] INFO  MyGetLogger [(null)] - {"TimeStamp":"1489560278031","Token":"bca82397-4745-4be0-9db0-4ddefc38b8ee","MethodName":"ActionMethodDispatcher-Execute","HttpStatusCode":"OK","Errorflag":"Info","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
+2017-03-15 14:47:44,384 [7] INFO  MyGetLogger [(null)] - {"TimeStamp":"1489560464198","Token":"0506bfdd-4408-4c39-842f-96a98fc13677","MethodName":"TestController-UpdateLoad","HttpStatusCode":"OK","Errorflag":"Info","Message":"测试处理成功方法!","ResponseResult":"{\"id\":1,\"name\":\"测试\"}"}
+
