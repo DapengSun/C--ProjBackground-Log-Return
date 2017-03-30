@@ -7,9 +7,6 @@ namespace DemoProj.Models
 {
     public class EnumModel
     {
-        /// <summary>
-        /// 错误标识
-        /// </summary>
         public enum Errorflag {
             //错误
             Error,
@@ -21,16 +18,6 @@ namespace DemoProj.Models
             Debug,
             //警告信息
             Warn
-        }
-
-        /// <summary>
-        /// 日志类别
-        /// </summary>
-        public enum LogType {
-            //应用日志
-            Application,
-            //系统日志
-            System
         }
     }
 }

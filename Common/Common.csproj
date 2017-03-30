@@ -92,6 +92,8 @@
     <Compile Include="ToolHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="log4net.config" />
+    <None Include="LogHelper.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
