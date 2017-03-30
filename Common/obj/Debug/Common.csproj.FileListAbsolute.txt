@@ -29,3 +29,14 @@ F:\MVCProj\DemoProj\DemoProj\Common\bin\Debug\ServiceStack.Common.xml
 F:\MVCProj\DemoProj\DemoProj\Common\bin\Debug\ServiceStack.Redis.xml
 F:\MVCProj\DemoProj\DemoProj\Common\bin\Debug\ServiceStack.Text.xml
 F:\MVCProj\DemoProj\DemoProj\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Client.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Common.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Interfaces.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Redis.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Text.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Client.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Common.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Redis.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\Common\bin\Debug\ServiceStack.Text.xml
