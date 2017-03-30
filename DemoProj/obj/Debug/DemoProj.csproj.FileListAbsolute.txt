@@ -339,3 +339,10 @@ D:\WorkSpace\Demo\CodeFirst\DemoProj[2017年3月19日]\DemoProj\bin\zh-Hans\Micr
 D:\WorkSpace\Demo\CodeFirst\DemoProj[2017年3月19日]\DemoProj\obj\Debug\DemoProj.csprojResolveAssemblyReference.cache
 D:\WorkSpace\Demo\CodeFirst\DemoProj[2017年3月19日]\DemoProj\obj\Debug\DemoProj.dll
 D:\WorkSpace\Demo\CodeFirst\DemoProj[2017年3月19日]\DemoProj\obj\Debug\DemoProj.pdb
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Redis.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Interfaces.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Text.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Common.dll
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Redis.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Text.xml
+D:\WorkSpace\Demo\CodeFirst\DemoProj\DemoProj\bin\ServiceStack.Common.xml

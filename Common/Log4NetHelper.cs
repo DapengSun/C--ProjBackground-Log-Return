@@ -14,21 +14,42 @@ namespace Common
         /// </summary>
         /// <param name="_msg">内容</param>
         #region 
-        public static void WriteLog(Errorflag _errorflag, string _msg)
+        public static void WriteLog(Errorflag _errorflag, string _msg,LogType _logType)
         {
-            log4net.ILog log = log4net.LogManager.GetLogger("MyGetLogger");
-            switch (_errorflag) {
-                case Errorflag.Error:
-                    log.Error(_msg);break;
-                case Errorflag.Fatal:
-                    log.Fatal(_msg); break;
-                case Errorflag.Info:
-                    log.Info(_msg); break;
-                case Errorflag.Debug:
-                    log.Debug(_msg); break;
-                case Errorflag.Warn:
-                    log.Warn(_msg); break;
-                default:break;
+            if (_logType == LogType.Application)
+            {
+                log4net.ILog log = log4net.LogManager.Exists("ApplicationLog");
+                switch (_errorflag)
+                {
+                    case Errorflag.Error:
+                        log.Error(_msg); break;
+                    case Errorflag.Fatal:
+                        log.Fatal(_msg); break;
+                    case Errorflag.Info:
+                        log.Info(_msg); break;
+                    case Errorflag.Debug:
+                        log.Debug(_msg); break;
+                    case Errorflag.Warn:
+                        log.Warn(_msg); break;
+                    default: break;
+                }
+            }
+            else {
+                log4net.ILog log = log4net.LogManager.Exists("SystemLog");
+                switch (_errorflag)
+                {
+                    case Errorflag.Error:
+                        log.Error(_msg); break;
+                    case Errorflag.Fatal:
+                        log.Fatal(_msg); break;
+                    case Errorflag.Info:
+                        log.Info(_msg); break;
+                    case Errorflag.Debug:
+                        log.Debug(_msg); break;
+                    case Errorflag.Warn:
+                        log.Warn(_msg); break;
+                    default: break;
+                }
             }
         }
         #endregion
